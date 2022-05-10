@@ -4,7 +4,6 @@ public class Principal {
 
         Fatorial fatorial = new Fatorial();
 
-        //System.out.println("Exercicio Fatorial\n");
         System.out.println("1. Programa que imprima o valor fatorial e todas as etapas do seu processo\n");
         fatorial.solucao();
 
