@@ -32,8 +32,8 @@ public class Disciplina {
 
         System.out.println("Possibilidade " + count);
 
-        for (String s : arr) {
-            System.out.println("- " + s);
+        for (String str : arr) {
+            System.out.println("- " + str);
             count++;
         }
         System.out.println("\n");
