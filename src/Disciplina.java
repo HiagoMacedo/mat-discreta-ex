@@ -21,22 +21,14 @@ public class Disciplina {
 
                 for (String linguagem : linguaPrograma) {
                     possibilidade[2] = linguagem;
-                    exibir(possibilidade, count);
+                    
+                    System.out.println("Possibilidade " + count + "\n " + possibilidade[0] + "\n " + possibilidade[1] + "\n " + possibilidade[2] + "\n");
                     count++;
                 }
             }
         }
     }
 
-    private static void exibir(String[] arr, int count) {
-
-        System.out.println("Possibilidade " + count);
-
-        for (String str : arr) {
-            System.out.println("- " + str);
-        }
-        System.out.println("\n");
-    }
 
     public void solucaoB() {
         // B. O número de n maneiras que um estudante pode escolher apenas uma disciplina
