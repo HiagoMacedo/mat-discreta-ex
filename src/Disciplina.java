@@ -34,7 +34,6 @@ public class Disciplina {
 
         for (String str : arr) {
             System.out.println("- " + str);
-            count++;
         }
         System.out.println("\n");
     }
