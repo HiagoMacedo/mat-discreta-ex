@@ -9,7 +9,7 @@ public class Fatorial {
         for (int i = numero; i > 1; i--) {
             auxNum = i - 1;
 
-            System.out.println(numero + "\t\t * \t\t" + auxNum + "\t\t = \t\t" + (numero*auxNum));
+            System.out.println(numero + " * " + auxNum + " = " + (numero*auxNum));
 
             numero *= auxNum;
         }
