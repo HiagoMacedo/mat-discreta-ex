@@ -28,7 +28,7 @@ public class Disciplina {
         }
     }
 
-    public static void exibir(String [] arr, int count) {
+    private static void exibir(String [] arr, int count) {
 
         System.out.println("Possibilidade " + count);
 
