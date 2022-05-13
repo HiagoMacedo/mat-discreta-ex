@@ -13,8 +13,8 @@ public class Disciplina {
 
 
         int count = 1;
-        for (String str : engSoftware) {
-            possibilidade[0] = str;
+        for (String software : engSoftware) {
+            possibilidade[0] = software;
 
             for (String bancoDado : bancoDados) {
                 possibilidade[1] = bancoDado;
